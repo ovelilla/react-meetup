@@ -1,0 +1,58 @@
+[
+  {
+    "id": "m1",
+    "title": "This is a first meetup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadtbild_M%C3%BCnchen.jpg/2560px-Stadtbild_M%C3%BCnchen.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a first, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  },
+  {
+    "id": "m2",
+    "title": "This is a second meetup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Long_Island_City_New_York_May_2015_panorama_3.jpg/1920px-Long_Island_City_New_York_May_2015_panorama_3.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a second, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  },
+  {
+    "id": "m3",
+    "title": "This is a third meetup",
+    "image": "https://www.deutschakademie.de/muenchen/blog/wp-content/uploads/2021/03/Mu%CC%88nchen-Alemania.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a third, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  },
+  {
+    "id": "m4",
+    "title": "This is a fourth meetup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/London_%2844761485915%29.jpg/1920px-London_%2844761485915%29.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a fourth, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  },
+  {
+    "id": "m5",
+    "title": "This is a fifth meetup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Avenue_des_Champs-%C3%89lys%C3%A9es_July_24%2C_2009_N1.jpg/1920px-Avenue_des_Champs-%C3%89lys%C3%A9es_July_24%2C_2009_N1.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a fifth, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  },
+  {
+    "id": "m6",
+    "title": "This is a sixth meetup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Palacio_de_Cristal_-_02.jpg/1920px-Palacio_de_Cristal_-_02.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a sixth, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  },
+  {
+    "id": "m7",
+    "title": "This is a seventh meetup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Casa_Mil%C3%A0%2C_general_view.jpg/1920px-Casa_Mil%C3%A0%2C_general_view.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a seventh, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  },
+  {
+    "id": "m8",
+    "title": "This is a eighth meetup",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Badia_fiorentina%2C_campanile%2C_veduta_da%2C_duomo_01.jpg/1920px-Badia_fiorentina%2C_campanile%2C_veduta_da%2C_duomo_01.jpg",
+    "address": "Meetupstreet 5, 12345 Meetup City",
+    "description": "This is a eighth, amazing meetup which you definitely should not miss. It will be a lot of fun!"
+  }
+]
