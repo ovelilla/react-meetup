@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 // Stores
 import { useMeetupsStore } from "core/stores/meetups.store";
 // Types
-import { NavigationHookReturnType } from "./types/navigation.hook.return.type";
+import { MenuHookReturnType } from "./types/menu.hook.return.type";
 
-const NavigationHook = (): NavigationHookReturnType => {
+const MenuHook = (): MenuHookReturnType => {
   const [count, setCount] = useState(0);
 
   const { meetups, getFavorites } = useMeetupsStore();
@@ -17,4 +17,4 @@ const NavigationHook = (): NavigationHookReturnType => {
   return { count };
 };
 
-export { NavigationHook };
+export { MenuHook };

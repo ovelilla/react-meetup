@@ -1,32 +1,13 @@
-// Vendors
-import { useState, useEffect } from "react";
 // Components
+import { HambuergerComponent } from "./components/hamburger/hambuerger.component";
 import { LogoComponent } from "components/header/components/logo/logo.component";
-import { NavigationComponent } from "components/header/components/navigation/navigation.component";
+import { MenuComponent } from "components/header/components/menu/menu.component";
+import { SidebarComponent } from "./components/sidebar/sidebar.component";
+// Hooks
+import { HeaderHook } from "./hooks/header.hook";
 
 const HeaderComponent = () => {
-  const [visible, setVisible] = useState<boolean>(true);
-  const [prevScrollPos, setPrevScrollPos] = useState<number>(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-
-      if (prevScrollPos > currentScrollPos || currentScrollPos < 10) {
-        setVisible(true);
-      } else {
-        setVisible(false);
-      }
-
-      setPrevScrollPos(currentScrollPos);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [prevScrollPos]);
+  const { visible, showSidebar, setShowSidebar } = HeaderHook();
 
   return (
     <header
@@ -35,7 +16,11 @@ const HeaderComponent = () => {
       }`}
     >
       <LogoComponent>React Meetups</LogoComponent>
-      <NavigationComponent />
+      <MenuComponent />
+      <HambuergerComponent onClick={() => setShowSidebar(true)} />
+      <SidebarComponent
+        {...{ showSidebar, onClose: () => setShowSidebar(false) }}
+      />
     </header>
   );
 };
