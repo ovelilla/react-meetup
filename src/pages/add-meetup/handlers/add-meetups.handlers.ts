@@ -14,7 +14,6 @@ const submitEventHandler = async ({
 }: Pick<AddMeetupsHandlersPropsType, "addMeetup" | "reset" | "setLoading"> & {
   data: MeetupSchemaType;
 }): Promise<void> => {
-  console.log(data);
   setLoading(true);
   await sleep(2000);
   addMeetup(data);

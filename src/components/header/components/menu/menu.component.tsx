@@ -9,7 +9,7 @@ const MenuComponent = () => {
   const { count } = MenuHook();
 
   return (
-    <nav className="hidden text-white md:flex">
+    <nav className="hidden text-white md:flex" data-testid="menu">
       <ul className="flex gap-4">
         {MENU.map((item) => (
           <li key={item.id}>

@@ -23,11 +23,13 @@ const SidebarComponent = ({
     <div
       className="fixed left-0 top-0 z-50 h-dvh w-full bg-black/20 md:hidden"
       onClick={onClose}
+      data-testid="sidebar"
     >
       <div className="flex h-full w-72 flex-col gap-6 bg-white px-4 py-6 shadow-md">
         <button
           className="flex h-10 w-10 items-center justify-center self-end rounded-md hover:bg-indigo-100"
           onClick={onClose}
+          data-testid="close-button"
         >
           <X className="flex h-8 w-8 shrink-0" />
         </button>

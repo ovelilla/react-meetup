@@ -34,7 +34,6 @@ const useMeetupsStore = create<MeetupsStoreType>()(
           id: `m${parseInt(lastMeetupId.slice(1)) + 1}`,
           isFavorite: false,
         };
-        console.log(newMeetup);
         set({ meetups: [...get().meetups, newMeetup] });
       },
       getFavorites: () => get().meetups.filter((meetup) => meetup.isFavorite),
