@@ -27,6 +27,7 @@ const AllMeetupsHook = (): AllMeetupsHookReturnType => {
 
   useEffect(() => {
     handleFetchMeetups();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return { handleAddToFavorites, handleRemoveFromFavorites, loading, meetups };
