@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // Handlers
 import { FavoritesHandlers } from "../handlers/favorites.handlers";
 // Stores
-import { useMeetupsStore } from "core/stores/meetups.store";
+import { useMeetupsStore } from "@/core/stores/meetups.store";
 // Types
 import { FavoritesHookReturnType } from "./types/favorites.hook.return.type";
 

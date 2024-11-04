@@ -1,7 +1,7 @@
 // Vendors
 import { Outlet } from "react-router-dom";
 // Components
-import { HeaderComponent } from "components/header/header.component";
+import { HeaderComponent } from "@/components/header/header.component";
 
 const AppLayout = (): React.ReactElement => (
   <>

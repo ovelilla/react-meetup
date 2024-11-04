@@ -5,7 +5,7 @@ import { FavoritesHandlersPropsType } from "./types/favorites.handlers.props.typ
 import { FavoritesHandlersReturnType } from "./types/favorites.handlers.return.type";
 import { Meetup } from "types/meetup.type";
 // Utils
-import { sleep } from "utils/sleep";
+import { sleep } from "@/utils/sleep";
 
 const addToFavoritesEventHandler = ({
   id,

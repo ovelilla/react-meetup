@@ -1,7 +1,7 @@
 // Vendors
 import { Dispatch, SetStateAction } from "react";
 // Types
-import { MeetupSchemaType } from "pages/add-meetup/schemas/add-meetup.schema";
+import { MeetupSchemaType } from "@/pages/add-meetup/schemas/add-meetup.schema";
 
 type AddMeetupsHandlersPropsType = {
   addMeetup: (meetup: MeetupSchemaType) => void;

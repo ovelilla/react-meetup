@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // Handlers
 import { AllMeetupsHandlers } from "../handlers/all-meetups.handlers";
 // Stores
-import { useMeetupsStore } from "core/stores/meetups.store";
+import { useMeetupsStore } from "@/core/stores/meetups.store";
 // Types
 import { AllMeetupsHookReturnType } from "./types/all-meetups.hook.return.type";
 

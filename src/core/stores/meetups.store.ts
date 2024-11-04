@@ -3,7 +3,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 // Types
 import { Meetup } from "types/meetup.type";
-import { MeetupSchemaType } from "pages/add-meetup/schemas/add-meetup.schema";
+import { MeetupSchemaType } from "@/pages/add-meetup/schemas/add-meetup.schema";
 
 type MeetupsStoreType = {
   meetups: Meetup[];

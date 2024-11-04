@@ -1,6 +1,6 @@
 // Components
-import { MeetupListComponent } from "components/meetup-list/meetup-list.component";
-import { MeetupListSkeletonComponent } from "components/meetup-list-skeleton/meetup-list-skeleton.component";
+import { MeetupListComponent } from "@/components/meetup-list/meetup-list.component";
+import { MeetupListSkeletonComponent } from "@/components/meetup-list-skeleton/meetup-list-skeleton.component";
 // Hooks
 import { AllMeetupsHook } from "./hooks/all-meetups.hook";
 

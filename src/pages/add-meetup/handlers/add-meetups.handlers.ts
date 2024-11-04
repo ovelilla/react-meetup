@@ -4,7 +4,7 @@ import { AddMeetupsHandlersReturnType } from "./types/add-meetups.handlers.retur
 // Types
 import { MeetupSchemaType } from "../schemas/add-meetup.schema";
 // Utils
-import { sleep } from "utils/sleep";
+import { sleep } from "@/utils/sleep";
 
 const submitEventHandler = async ({
   addMeetup,

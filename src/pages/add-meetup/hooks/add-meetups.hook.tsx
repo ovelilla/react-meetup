@@ -7,7 +7,7 @@ import { AddMeetupsHandlers } from "../handlers/add-meetups.handlers";
 // Schemas
 import { MeetupSchema } from "../schemas/add-meetup.schema";
 // Stores
-import { useMeetupsStore } from "core/stores/meetups.store";
+import { useMeetupsStore } from "@/core/stores/meetups.store";
 // Types
 import { AddMeetupsHookReturnType } from "./types/add-meetups.hook.return.type";
 import { MeetupSchemaType } from "../schemas/add-meetup.schema";

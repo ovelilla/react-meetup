@@ -5,7 +5,7 @@ import { AllMeetupsHandlersPropsType } from "./types/all-meetups.handlers.props.
 import { AllMeetupsHandlersReturnType } from "./types/all-meetups.handlers.return.type";
 import { Meetup } from "types/meetup.type";
 // Utils
-import { sleep } from "utils/sleep";
+import { sleep } from "@/utils/sleep";
 
 const addToFavoritesEventHandler = ({
   id,

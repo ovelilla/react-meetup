@@ -1,7 +1,7 @@
 // Components
 import { HambuergerComponent } from "./components/hamburger/hambuerger.component";
-import { LogoComponent } from "components/header/components/logo/logo.component";
-import { MenuComponent } from "components/header/components/menu/menu.component";
+import { LogoComponent } from "@/components/header/components/logo/logo.component";
+import { MenuComponent } from "@/components/header/components/menu/menu.component";
 import { SidebarComponent } from "./components/sidebar/sidebar.component";
 // Hooks
 import { HeaderHook } from "./hooks/header.hook";

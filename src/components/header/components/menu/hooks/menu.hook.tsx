@@ -1,7 +1,7 @@
 // Vendors
 import { useEffect, useState } from "react";
 // Stores
-import { useMeetupsStore } from "core/stores/meetups.store";
+import { useMeetupsStore } from "@/core/stores/meetups.store";
 // Types
 import { MenuHookReturnType } from "./types/menu.hook.return.type";
 
