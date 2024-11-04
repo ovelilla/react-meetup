@@ -1,10 +1,9 @@
 // Types
 import { Meetup } from "@/core/types/meetup.type";
 
-type MeetupListComponentPropsType = {
-  meetups: Meetup[];
+type MeetupItemComponentPropsType = Meetup & {
   onAddToFavorites: (id: string) => void;
   onRemoveFromFavorites: (id: string) => void;
 };
 
-export type { MeetupListComponentPropsType };
+export type { MeetupItemComponentPropsType };

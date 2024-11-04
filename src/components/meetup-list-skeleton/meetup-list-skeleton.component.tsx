@@ -1,5 +1,5 @@
 // Components
-import { MeetupItemSkeletonComponent } from "../meetup-item-skeleton/meetup-item-skeleton.component";
+import { MeetupItemSkeletonComponent } from "./components/meetup-item-skeleton/meetup-item-skeleton.component";
 // Types
 import { MeetupListSkeletonComponentPropsType } from "./types/meetup-list-skeleton.component.props.type";
 const MeetupListSkeletonComponent = ({

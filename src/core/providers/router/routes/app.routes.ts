@@ -9,7 +9,7 @@ const appRoutes = {
       path: "/",
       async lazy() {
         const { AllMeetupsPage } = await import(
-          "@/pages/all-meetups/all-meetups.page"
+          "@/features/all-meetups/all-meetups.page"
         );
         return { Component: AllMeetupsPage };
       },
@@ -18,7 +18,7 @@ const appRoutes = {
       path: "/add-meetup",
       async lazy() {
         const { AddMeetupPage } = await import(
-          "@/pages/add-meetup/add-meetup.page"
+          "@/features/add-meetup/add-meetup.page"
         );
         return { Component: AddMeetupPage };
       },
@@ -27,7 +27,7 @@ const appRoutes = {
       path: "/favorites",
       async lazy() {
         const { FavoritesPage } = await import(
-          "@/pages/favorites/favorites.page"
+          "@/features/favorites/favorites.page"
         );
         return { Component: FavoritesPage };
       },

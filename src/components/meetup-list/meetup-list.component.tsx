@@ -1,5 +1,5 @@
 // Components
-import { MeetupItemComponent } from "../meetup-item/meetup-item.component";
+import { MeetupItemComponent } from "./components/meetup-item/meetup-item.component";
 // Types
 import { MeetupListComponentPropsType } from "./types/meetup-list.component.props.type";
 

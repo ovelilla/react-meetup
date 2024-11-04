@@ -1,7 +1,7 @@
 import { render, fireEvent } from "@testing-library/react";
 import { MeetupListComponent } from "@/components/meetup-list/meetup-list.component";
 
-jest.mock("@/components/meetup-item/meetup-item.component", () => ({
+jest.mock("@/components/meetup-list/components/meetup-item/meetup-item.component", () => ({
   MeetupItemComponent: ({
     id,
     title,
